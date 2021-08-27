@@ -1,0 +1,9 @@
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\bin\Debug\netstandard2.1\Core.deps.json
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\bin\Debug\netstandard2.1\Core.dll
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.csproj.AssemblyReference.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.AssemblyInfoInputs.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.AssemblyInfo.cs
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.dll
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\Core\obj\Debug\netstandard2.1\Core.pdb

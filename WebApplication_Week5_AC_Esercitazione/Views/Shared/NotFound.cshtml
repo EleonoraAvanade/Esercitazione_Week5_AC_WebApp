@@ -1,0 +1,10 @@
+﻿@model NotFoundViewModel
+
+@{
+    ViewData["Title"] = "Not Found";
+}
+
+<h1 class="text-danger">Errore.</h1>
+<h2 class="text-danger">@Model.Message</h2>
+<h2 class="text-danger">Non è stato trovato l'oggetto con il seguenteid: @Model.EntityId </h2>
+

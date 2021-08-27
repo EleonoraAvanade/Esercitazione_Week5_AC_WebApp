@@ -1,0 +1,20 @@
+﻿@model PiattoViewModel
+
+@{ ViewData["Title"] = "Add"; }
+
+<h1>Aggiungi</h1>
+
+<div class="row">
+        <form asp-action="Add">
+
+            <partial name="_Form" model="Model" />
+
+            <div>
+                <input type="submit" value="Aggiungi" class="btn btn-primaryMine" />
+            </div>
+        </form>
+</div>
+
+<div>
+    <a asp-action="Index"> Torna al menù</a>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\bin\Debug\netstandard2.1\EntityFrWork.deps.json
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\bin\Debug\netstandard2.1\EntityFrWork.dll
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\bin\Debug\netstandard2.1\EntityFrWork.pdb
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\bin\Debug\netstandard2.1\Core.dll
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\bin\Debug\netstandard2.1\Core.pdb
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.csproj.AssemblyReference.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.AssemblyInfoInputs.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.AssemblyInfo.cs
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.csproj.CoreCompileInputs.cache
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.csproj.CopyComplete
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.dll
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\EntityFrWork\obj\Debug\netstandard2.1\EntityFrWork.pdb
