@@ -83,7 +83,8 @@ namespace WebApplication.Controllers
 
                 return View();
             }
-
+            
+            [Authorize(Policy = "AccountAdministrator")]
             public IActionResult Edit(int id)
             {
                 if (id <= 0)
@@ -107,7 +108,8 @@ namespace WebApplication.Controllers
                 };
                 return View(pViewModel);
             }
-
+            
+            [Authorize(Policy = "AccountAdministrator")]
             [HttpPost]
             public IActionResult Edit(PiattoViewModel data)
             {
@@ -133,7 +135,8 @@ namespace WebApplication.Controllers
 
                 return View();
             }
-
+            
+            [Authorize(Policy = "AccountAdministrator")]
             public IActionResult Delete(int id)
             {
                 if (id <= 0)
@@ -151,7 +154,8 @@ namespace WebApplication.Controllers
                 }
                 return View(model);
             }
-
+        
+            [Authorize(Policy = "AccountAdministrator")]
             [HttpPost]
             public IActionResult Delete(Piatto data)
             {

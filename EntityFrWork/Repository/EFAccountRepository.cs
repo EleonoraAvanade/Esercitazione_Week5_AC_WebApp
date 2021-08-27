@@ -26,7 +26,7 @@ namespace EntityFrWork.Repository
                 ctx.SaveChanges();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }

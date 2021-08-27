@@ -12,7 +12,7 @@ namespace Core.Interfaces
         ItemResult AddNewPiatto(Piatto newEmp);
         ItemResult EditPiatto(Piatto data);
         ItemResult DeletePiatto(Piatto data);
-
+        ItemResult AddAccount(Account p);
         Account GetAccount(string username);
     }
 }

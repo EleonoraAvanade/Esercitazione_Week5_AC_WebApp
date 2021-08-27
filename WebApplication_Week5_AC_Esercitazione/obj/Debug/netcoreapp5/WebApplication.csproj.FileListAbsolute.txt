@@ -399,3 +399,4 @@ C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\WebAppl
 C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\WebApplication_Week5_AC_Esercitazione\obj\Debug\netcoreapp5\Razor\Views\Shared\NotFound.cshtml.g.cs
 C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\WebApplication_Week5_AC_Esercitazione\obj\Debug\netcoreapp5\Razor\Views\Shared\_Form.cshtml.g.cs
 C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\WebApplication_Week5_AC_Esercitazione\obj\Debug\netcoreapp5\Razor\Views\Shared\_InfoPiatto.cshtml.g.cs
+C:\Users\eleonora.lombardo\Desktop\WebApplication_Week5_AC_Esercitazione\WebApplication_Week5_AC_Esercitazione\obj\Debug\netcoreapp5\Razor\Views\Account\Register.cshtml.g.cs

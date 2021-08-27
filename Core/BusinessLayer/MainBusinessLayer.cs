@@ -105,5 +105,26 @@ namespace Core.BusinessLayer
             }
             return piattoRepository.Read().FirstOrDefault(k=>k.Id==id);
         }
+        public ItemResult AddAccount(Account p)
+        {
+            if (p == null)
+            {
+                throw new ArgumentNullException();
+            }
+            bool res = accountRepository.Add(p);
+            if (res)
+            {
+                return new ItemResult
+                {
+                    Res = true,
+                    Msg = "Added"
+                };
+            }
+            return new ItemResult
+            {
+                Res = false,
+                Msg = "Not added"
+            };
+        }
     }
 }

@@ -26,17 +26,26 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Nome</td>
-                <td>@item.Descrizione</td>
-                <td>@item.Tipologia</td>
-                <td>@item.Prezzo</td>
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nome</td>
+            <td>@item.Descrizione</td>
+            <td>@item.Tipologia</td>
+            <td>@item.Prezzo</td>
+            @if (User.IsInRole("Administrator"))
+            {
                 <td>
                     @Html.ActionLink("Dettagli", "Details", new { id = item.Id }) |
                     @Html.ActionLink("Modifica", "Edit", new { id = item.Id }) |
                     @Html.ActionLink("Rimuovi", "Delete", new { id = item.Id })
                 </td>
+            }
+            else
+            {
+                <td>
+                    @Html.ActionLink("Dettagli", "Details", new { id = item.Id }) 
+                </td>
+                }
             </tr>
 
         }

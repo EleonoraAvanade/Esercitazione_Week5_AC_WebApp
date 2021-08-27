@@ -1,4 +1,5 @@
 ﻿using Core.Interfaces;
+using Core.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
@@ -82,6 +83,40 @@ namespace WebApplication.Controllers
         {
             await HttpContext.SignOutAsync();
             return Redirect("/");
+        }
+
+        public IActionResult Register(string returnUrl)
+        {
+            return View(new AccountViewModel
+            {
+                ReturnUrl = returnUrl
+            });
+        }
+        [HttpPost]
+        public async Task<IActionResult> Register(AccountViewModel vm)
+        {
+            if (vm == null)
+            {
+                return View("Error", new ErrorViewModel());
+            }
+
+            var account = bl.AddAccount(new Account
+            {
+                Username=vm.Username,
+                Password=vm.Password,
+                Role=Role.User
+            });
+            if (account.Res != false && ModelState.IsValid)
+            {
+                await Login(vm);
+                return Redirect("/");
+            }
+            else
+            {
+                ModelState.AddModelError(nameof(vm.Password), "Invalid");
+                return View(vm);
+            }
+            return View(vm);
         }
     }
 }
